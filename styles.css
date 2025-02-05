@@ -1,0 +1,88 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Шапка */
+  header {
+    background: #6b6767;
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  /* Секции */
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Услуги */
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-item {
+    background: #5e5959;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: calc(33.333% - 40px);
+    text-align: center;
+  }
+  
+  .service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Контакты */
+  #contact {
+    background: #f4f4f4;
+  }
+  
+  /* Подвал */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
